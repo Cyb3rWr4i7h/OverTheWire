@@ -10,7 +10,7 @@ bandit.labs.overthewire.org:2220
 bandit4
 
 ### Password
-pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
 
 ## Writeup
 Since the password is stored in a file in inhere directory, we will go to inhere directory using <kbd>cd</kbd> ( Change Directory) command.
