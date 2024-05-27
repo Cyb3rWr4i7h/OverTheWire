@@ -11,6 +11,6 @@ bandit1
 NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 ## Writeup
 To see the file present in any directory we use <kbd>ls</kbd> command.
-Then we will see a file readme. To print it's content, we will use <kbd>cat<kbd> command.
+Then we will see a file readme. To print it's content, we will use <kbd>cat</kbd> command.
 
 ![Screenshot](images/1.png)
