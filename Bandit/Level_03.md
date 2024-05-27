@@ -7,7 +7,7 @@ The password for the next level is stored in a hidden file in the inhere directo
 bandit.labs.overthewire.org:2220
 
 ### Username
-bandit3
+bandit4
 
 ### Password
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
