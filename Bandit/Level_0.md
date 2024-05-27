@@ -8,6 +8,11 @@ The goal of this level is for you to log into the game using SSH. The host to wh
 ## Box and Port
 bandit.labs.overthewire.org:2220
 
+### Username
+bandit0
+### Password
+bandit0
+
 ## Writeup
 <kbd>ssh</kbd> command is used to establish a secure shell connection. The correct systax is:
 <kbd>ssh username@hostname -p port-number</kbd>. By default the port number is 22 but here to connect to port number 2220 so we specify it using -p.
