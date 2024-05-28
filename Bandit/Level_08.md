@@ -13,14 +13,10 @@ bandit9
 EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
 ## Writeup
-We will use `uniq` command with `-c` option to prefix the lines by their number of occurences. But uniq only counts occurences in consecutive lines so first we will sort the file using `sort` command. Then we can use `sort` again to get the lines sorted in their order of recurrence and finally the first line using `head` or we can use `grep` to get the line starting with `1`, since line containing password is only line repeated once.
+We will use `uniq` command with `-c` option to prefix the lines by their number of occurences. But uniq only counts occurences in consecutive lines so first we will sort the file using `sort` command. Then we can use `sort` again to get the lines sorted in their order of recurrence and finally the first line using `head`.
 
 
 ```bash
  sort data.txt | uniq -c | sort | head -1
 ```
 
-Using `grep`:
-```bash
-sort data.txt | uniq -c | grep ^1
-```
