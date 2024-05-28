@@ -19,7 +19,3 @@ Here, we will use `grep` command to search for the line containing the word `mil
 grep millionth data.txt
 ```
 This will output the line containing the word millionth.
-
-
-
-`
