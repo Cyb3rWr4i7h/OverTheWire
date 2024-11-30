@@ -13,7 +13,7 @@ bandit12
 JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 ## Writeup
-We can print the content of data.txt using `cat` command and we can the ROT13 operation on ![CyberChef](https://cyberchef.org/#recipe=ROT13(true,true,false,13)) over this data or we can use the `tr` (translate) command as:
+We can print the content of data.txt using `cat` command and we can the ROT13 operation on [CyberChef](https://cyberchef.org/#recipe=ROT13(true,true,false,13)) over this data or we can use the `tr` (translate) command as:
 ```bash
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
