@@ -14,7 +14,7 @@ bandit11
 
 ## Writeup
 Here we simply print contents of `data.txt` and decode it through
-![CyberChef](https://gchq.github.io/CyberChef/)
+[CyberChef](https://gchq.github.io/CyberChef/)
 using `From Base64`
 
 OR we can do it using command line as:
